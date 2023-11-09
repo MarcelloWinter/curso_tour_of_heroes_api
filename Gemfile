@@ -12,6 +12,8 @@ gem "tzinfo-data", platforms: %i[ windows jruby ]
 
 gem "bootsnap", require: false
 
+gem "active_model_serializers", "~> 0.10.14"
+
 group :development, :test do
   gem "debug", platforms: %i[ mri windows ]
 end
